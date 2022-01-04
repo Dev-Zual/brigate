@@ -210,6 +210,12 @@ button.slider-btn {
     padding: 10px;
     text-align: center;
 }
+
+.whatwedo-single-box:hover{
+color: #ffffff !important;
+background: #FF5200;
+transition: all 0.5s;
+}
 .no-margin{
     margin-right: 0px;
 }
