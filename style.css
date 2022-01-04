@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.top-header {
+    background: #F5F5F5;
+    /* padding: 14px; */
+}
+.top-header-content {
+    overflow: hidden;
+}
+.top-header-right {
+    width: 700px;
+    float: left;
+    margin-top: 13px;
+}
+.top-header-right span {
+    border-left: 1px solid #e4e4e4;
+    padding: 12px 7px;
+    font-size: 15px;
+}
+.top-header-right span i {
+    color: #FF5200;
+    padding: 0px 10px;
+}
+.top-header-left{
+width: 470px;
+float: left;
+}
+.top-header-left .icon i {
+    float: right;
+    padding: 15px 15px;
+    border-left: 1px solid #e4e4e4;
+}
+.main-menu ul li{
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+}
+.logo-area {
+    width: 300px;
+    float: left;
+    margin-top: 20px;
+}
+
+.menu-area {
+    width: 870px;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-menu ul {
+    float: right;
+}
+.main-menu ul li {
+    list-style: none;
+    display: inline;
+    position: relative;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    font-family: 'Oswald' sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 20px 25px 20px 0px;
+    color: #222;
+    transition: all 0.4s;
+}
+.main-menu ul li a:hover{
+    color: #FF5200;
+}
+.main-menu ul li i {
+    font-size: 14px;
+    padding: 0px 3px;
+}
+.SiconC{
+    padding: 15px !important;
+    font-size: 18px !important;
+}
+.main-menu ul li .active {
+    color: #FF5200 !important;
+    padding-left: 0px;
+}
+
+ul.Sub-menu {
+    width: 300px;
+    position: absolute;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: all 0.4s;
+    background-color: #fff;
+    opacity: 0;
+    padding: 25px 5px;
+    left: 0;
+    top: 58px;
+}
+.main-menu ul li:hover .Sub-menu{
+    transform: scaleY(1);
+    opacity: 1;
+}
+ul.Sub-menu li{
+    display: block;
+}
+ul.Sub-menu li a {
+    font-size: 16px;
+    font-family: 'Work Sans';
+    padding: 10px 26px;
+    line-height: 35px;
+
+}
+ul.Sub-menu li a:hover{
+    padding-left: 40px;
+}
+ul.Sub-menu2 {
+    width: 300px;
+    position: absolute;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: all 0.4s;
+    background-color: #fff;
+    opacity: 0;
+    padding: 25px 5px;
+    left: 0;
+    top: 58px;
+}
+.main-menu ul li:hover .Sub-menu2{
+    transform: scaleY(1);
+    opacity: 1;
+}
+ul.Sub-menu2 li{
+    display: block;
+}
+ul.Sub-menu2 li a {
+    font-size: 16px;
+    font-family: 'Work Sans';
+    padding: 10px 26px;
+    line-height: 35px;
+
+}
+ul.Sub-menu2 li a:hover{
+    padding-left: 40px;
+}
+section.slider-section {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 90px;
+}
+.slider-area {
+    background: url(img/slide-1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.slider-text {
+    padding: 85px 0px;
+}
+
+.slider-text h1 {
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 30px 0px;
+}
+
+.slider-text p {
+    color: #fff;
+    font-size: 16px;
+}
+button.slider-btn {
+    margin: 30px 0px;
+    padding: 15px 45px;
+    text-transform: uppercase;
+    background: #FF5C0F;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Oswald';
+}
+.whatwe-do-area {
+    background: #F5F6F6;
+}
+.whatwedo-box {
+    padding: 70px 0px;
+    overflow: hidden;
+}
+.whatwedo-single-box {
+    width: 250px;
+    float: left;
+    background: #fff;
+    margin-right: 30px;
+    padding: 10px;
+    text-align: center;
+}
+.no-margin{
+    margin-right: 0px;
+}
+.singlebox-icon i {
+    font-size: 33px;
+    color: #FF5200;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.whatwedo-single-box h5 {
+    font-size: 23px;
+    color: #333;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 444;
+    padding: 21px;
+}
+.whatwedo-single-box p {
+    font-size: 16px;
+    font-weight: normal;
+    color: #555;
+    padding: 5px;
+    line-height: 25px;
+}
+.learnMbtn a{
+    color: #FF5200;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+
+
+
+
+
